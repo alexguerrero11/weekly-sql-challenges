@@ -1,6 +1,0 @@
-/* Exercise 05
-Count the number of movies that Abigail Breslin was nominated for an oscar. */
-
-SELECT count(*)
-FROM oscar_nominees
-WHERE nominee = 'Abigail Breslin';
