@@ -14,6 +14,7 @@ Q: Find the number of apartments per nationality that are owned by people under 
 Output the nationality along with the number of apartments. Sort records by the apartments count in descending order. */
 
 
+
 /* Exercise 3 - Find the top 10 ranked songs in 2010
 Q: What were the top 10 ranked songs in 2010?
 Output the rank, group name, and song name but do not show the same song twice.
