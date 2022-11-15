@@ -13,13 +13,25 @@ LIMIT 2;
 Q: Find the number of apartments per nationality that are owned by people under 30 years old.
 Output the nationality along with the number of apartments. Sort records by the apartments count in descending order. */
 
+/* Exploring tables */
+SELECT * FROM airbnb_units;
+SELECT * FROM airbnb_hosts;
 
+/* SOLUTION */
+SELECT nationality, count(DISTINCT unit_id)
+FROM airbnb_units
+INNER JOIN airbnb_hosts
+    ON airbnb_units.host_id = airbnb_hosts.host_id
+WHERE unit_type = 'Apartment'
+    AND age < 30
+GROUP BY nationality;
 
 /* Exercise 3 - Find the top 10 ranked songs in 2010
 Q: What were the top 10 ranked songs in 2010?
 Output the rank, group name, and song name but do not show the same song twice.
 Sort the result based on the year_rank in ascending order. */
 
+/* SOLUTION */
 SELECT DISTINCT year_rank, group_name, song_name
 FROM billboard_top_100_year_end
 WHERE year = 2010
