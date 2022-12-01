@@ -23,6 +23,7 @@
     - [Exercise 03](https://pgexercises.com/questions/joins/simplejoin.html) - Retrieve the Start Times of Members' Bookings
 
 - Week 05 - PostgreSQL Exercises
-    - [Exercise 01](https://pgexercises.com/questions/aggregates/count2.html)
-    - [Exercise 02](https://pgexercises.com/questions/aggregates/count3.html)
-    - [Exercise 03](https://pgexercises.com/questions/aggregates/fachours1a.html)
+    - [Exercise 01](https://pgexercises.com/questions/aggregates/count2.html) - Count the number of expensive facilities
+    - [Exercise 02](https://pgexercises.com/questions/aggregates/count3.html) - Count the number of recommendations each member makes
+    - [Exercise 03](https://pgexercises.com/questions/aggregates/fachours1a.html) - List facilities with more than 1000 slots booked
+
